@@ -14,7 +14,7 @@ module Publikes
     attr_reader :status_id
     def env; @environment; end
 
-    USER_AGENT = 'Publikes-Crawler (+https://github.com/sorah/publikes)'
+    USER_AGENT = 'Publikes-Crawler (+https://github.com/xiemenwaidao/publikes)'
 
     def perform
       key = "data/private/statuses/#{status_id}.json"
